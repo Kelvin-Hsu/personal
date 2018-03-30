@@ -27,7 +27,7 @@ canonifyurls    = true
 
   logo = ""
   orgName = "Kelvin Hsu"
-  orgWebsite = "https://kelvin-hsu.github.io/personal/"
+  orgWebsite = "https://Kelvin-Hsu.github.io/personal/"
   orgDescription = ""
 
   showSupport = true
@@ -41,7 +41,7 @@ canonifyurls    = true
   pageNotFoundTitle = "404 - Page not found - Were you looking for something else?"
 
   #casper or caspertwo
-  singleViewStyle = "casper"
+  singleViewStyle = "caspertwo"
 
 [permalinks]
   post = "/post/:slug/"
