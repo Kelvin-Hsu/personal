@@ -1,3 +1,72 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl         = "https://Kelvin-Hsu.github.io/personal/"
+theme           = "casper-two"
+publishDir		= "docs"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "Random"
+  subtitle    = "Kelvin Hsu"
+  copyright   = "© 2018"
+
+  cover       = "img/welcome.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "Kelvin-Hsu"
+  fbName = "kylesmusic"
+  githubName = "Kelvin-Hsu"
+  linkedinName = "Kelvin-Hsu"
+  mediumName = ""
+
+  logo = ""
+  orgName = "Kelvin Hsu"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "Kelvin Hsu"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Sydney, Australia"
+  authorWebsite = "https://Kelvin-Hsu.github.io/personal"
+  authorDescription = "Your description here"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 99
+
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95
+
+[[menu.main]]
+  name = "CV"
+  url = "/files/cv.pdf"
+  weight = 100
