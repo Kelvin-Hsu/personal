@@ -8,18 +8,18 @@ paginate        = 6
 canonifyurls    = true
 
 [params]
-  title       = "Random"
+  title       = "Test"
   subtitle    = "Kelvin Hsu"
   copyright   = "© 2018"
 
-  cover       = "img/welcome.jpg"
+  cover       = "img/kobe-city.jpg"
   description = "Here is a description of your site."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "Kelvin-Hsu"
+  twitterName = ""
   fbName = "kylesmusic"
   githubName = "Kelvin-Hsu"
   linkedinName = "Kelvin-Hsu"
@@ -27,8 +27,8 @@ canonifyurls    = true
 
   logo = ""
   orgName = "Kelvin Hsu"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  orgWebsite = "https://kelvin-hsu.github.io/personal/"
+  orgDescription = ""
 
   showSupport = true
 
@@ -36,9 +36,9 @@ canonifyurls    = true
   authorAvatar = "img/ghost-icon.png"
   authorLocation = "Sydney, Australia"
   authorWebsite = "https://Kelvin-Hsu.github.io/personal"
-  authorDescription = "Your description here"
+  authorDescription = ""
 
-  pageNotFoundTitle = "404 - Page not found"
+  pageNotFoundTitle = "404 - Page not found - Were you looking for something else?"
 
   #casper or caspertwo
   singleViewStyle = "casper"
@@ -52,19 +52,9 @@ canonifyurls    = true
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
-  weight = 100
-
-[[menu.main]]
   name = "Categories"
   url = "/categories/"
   weight = 99
-
-[[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
 
 [[menu.main]]
   name = "CV"
