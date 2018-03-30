@@ -1,4 +1,4 @@
-baseurl         = "https://Kelvin-Hsu.github.io/personal/"
+baseurl         = "https://kelvin-hsu.github.io/personal/"
 theme           = "casper-two"
 publishDir		= "docs"
 languageCode    = "en-US"
