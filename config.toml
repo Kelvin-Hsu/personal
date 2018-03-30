@@ -12,7 +12,7 @@ canonifyurls    = true
   subtitle    = "Kelvin Hsu"
   copyright   = "© 2018"
 
-  cover       = "img/kobe-city.jpg"
+  cover       = "img/sunset-tiergarten.jpg"
   description = "Here is a description of your site."
   metaDescription = ""
   googleAnalytics = ""
