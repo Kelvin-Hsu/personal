@@ -8,8 +8,8 @@ paginate        = 6
 canonifyurls    = true
 
 [params]
-  title       = "Test"
-  subtitle    = "Kelvin Hsu"
+  title       = "The Transpiring Bayesian"
+  subtitle    = "Coming to an understanding in a world of uncertainty"
   copyright   = "© 2018"
 
   cover       = "img/sunset-tiergarten.jpg"
